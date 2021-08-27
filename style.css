@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+}
+.progress{
+    height: 5px;
+    background-color: rgb(204, 18, 204);
+    animation: load 2s ease-in 1;
+}
+@keyframes load {
+    0%{width: 0;}
+    40%{width: 70vw;}
+    100%{width: 100vw;}
+}
+.logo img{
+    width: 60px;
+}
+nav{
+    background-color: rgb(97, 2, 97);
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+} 
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: khaki;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(204, 18, 204);
+}
+.swipe{
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: auto auto auto auto auto ;
+    height: 60vh;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+@media screen and (max-width: 1000px) {
+    .swipe{
+        height: 40vh;
+    }  
+    .item{
+        background-size: 10vw 10vh;
+    }
+}
+@media screen and (max-width: 700px) {
+    .swipe{
+        height: 30vh;
+    }  
+}
+.container1{
+    background-color: black;
+    border: 5px solid rgb(204, 18, 204);
+    background-image: url('images/kd1.jfif');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+.container1:hover{
+    background-color: black;
+    border: 5px solid rgb(97, 2, 97);
+    background-image: url('images/kh.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+.container2{
+    background-color: black;
+    border: 5px solid rgb(204, 18, 204);
+    background-image: url('images/td1.jfif');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+.container2:hover{
+    background-color: black;
+    border: 5px solid rgb(97, 2, 97);
+    background-image: url('images/tg.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+.container3{
+    background-color: black;
+    border: 5px solid rgb(204, 18, 204);
+    background-image: url('images/rd.jfif');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+.container3:hover{
+    background-color: black;
+    border: 5px solid rgb(97, 2, 97);
+    background-image: url('images/rk.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+.container4{
+    background-color: black;
+    border: 5px solid rgb(204, 18, 204);
+    background-image: url('images/md1.jfif');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+.container4:hover{
+    background-color: black;
+    border: 5px solid rgb(97, 2, 97);
+    background-image: url('images/mt.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+
+.item{
+    background-color: black;
+    border: 5px solid rgb(204, 18, 204);
+    background-image: url('images/bb1.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    animation-name: bey;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes bey {
+    0%{
+        background-image: url('images/bb1.jpg');
+    }
+    16.6%{
+        background-image: url('images/bb2.jpg');
+    }
+    33.3%{
+        background-image: url('images/bb3.jpg');
+    }
+    50%{
+        background-image: url('images/bb4.jpg');
+    }
+    66.6%{
+        background-image: url('images/bb5.jpg');
+    }
+    83.4%{
+        background-image: url('images/bb6.jpg');
+    }
+}
+
+
+.yellow{
+    float: left;
+    margin: 0;
+    width: 50%;
+    height: 60vh;
+    background-color: rgba(255, 255, 0, 0.68);
+    text-shadow: violet; 
+    color: rgb(68, 47, 207);
+}
+.blue{
+    float: right;
+    margin: 0;
+    width: 50%;
+    height: 60vh;
+    background-color: rgba(0, 0, 255, 0.68);
+    text-shadow: royalblue;
+    color: sandybrown;
+}
+
+body{
+    background-image: url('images/bey.jpg');
+    background-size: contain;
+}
+
+div.im{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 5px solid rgb(204, 18, 204);
+    margin: 10px;
+    float: left;
+    width: 200px;
+  }
+  
+div.gallery:hover {
+    border: 5px solid rgb(97, 2, 97);
+}
+
+  
+div.gallery img {
+    width: 100%;
+    height: 150px;
+}
+div.desc {
+    padding: 15px;
+    background-color: rgba(27, 22, 22, 0.68);
+    color: aqua;
+    text-align: center;
+}
+.red{
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgba(27, 22, 22, 0.68);
+    text-shadow: rgb(146, 5, 146);
+    color: whitesmoke;
+    border: 4px solid red;
+}
+footer{
+    background-color: thistle;
+    clear: both;
+    color: midnightblue;
+    width: 100%;
+    text-align: center;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+} */
